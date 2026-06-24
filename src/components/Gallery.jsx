@@ -301,7 +301,7 @@ const galleryCategories = [
       "Educational Programs include seminars, workshops, career guidance sessions, and spiritual learning opportunities for students and community members.",
     images: [
       {
-        src: "/src/assets/WhatsApp Image 2026-06-24 at 12.52.51 PM.jpeg",
+        src: "/src/assets/gniat.jpeg",
         alt: "Educational Programs",
         caption: "Seminars, Workshops & Spiritual Learning",
       },

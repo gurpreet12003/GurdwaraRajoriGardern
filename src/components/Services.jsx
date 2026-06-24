@@ -13,7 +13,7 @@ const services = [
   },
   {
     title: "Educational",
-    image: "/src/assets/WhatsApp Image 2026-06-24 at 12.52.51 PM.jpeg",
+    image: "/src/assets/gniat.jpeg",
     desc: "Gurmat classes, seminars, and workshops for spiritual and academic learning.",
   },
   {

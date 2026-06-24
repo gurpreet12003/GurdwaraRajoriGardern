@@ -24,7 +24,7 @@ const bookingCards = [
   },
   {
     title: "GNIAT",
-    image: "/src/assets/WhatsApp Image 2026-06-24 at 12.52.51 PM.jpeg",
+    image: "/src/assets/gniat.jpeg",
     description:
       "Professional education and skill development programs for students.",
     button: "Learn More",
