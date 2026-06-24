@@ -3,63 +3,63 @@ import useInView from '../hooks/useInView';
 const services = [
   {
     title: "Kirtan Seva",
-    image: "/public/images/prayer-hall.jpg",
+    image: "/images/prayer-hall.jpg",
     desc: "Daily Shabad Kirtan by trained Ragis and Kirtaniye Jatha.",
   },
   {
     title: "Dispensary",
-    image: "/public/images/dispansry.jpg",
+    image: "/images/dispansry.jpg",
     desc: "Free healthcare consultations, medicines, and wellness services for the Sangat.",
   },
   {
     title: "Educational",
-    image: "/public/images/gniat.jpeg",
+    image: "/images/gniat.jpeg",
     desc: "Gurmat classes, seminars, and workshops for spiritual and academic learning.",
   },
   {
     title: "Langar Seva",
-    image: "/public/images/langar-hall.jpg",
+    image: "/images/langar-hall.jpg",
     desc: "Free community kitchen serving fresh meals to all visitors.",
   },
   {
     title: "Akhand Path",
-    image: "/public/images/ankhand path.jpg",
+    image: "/images/ankhand_path.jpg",
     desc: "Continuous 48-hour reading of Sri Guru Granth Sahib Ji.",
   },
   {
     title: "Naam Karan",
-    image: "/public/images/nam karan.jpg",
+    image: "/public/images/nam_karan.jpg",
     desc: "Sacred naming ceremony for newborns.",
   },
   {
     title: "Anand Karaj",
-    image: "/public/images/annad karaj.jpg",
+    image: "/images/annad_karaj.jpg",
     desc: "Traditional Sikh wedding ceremony.",
   },
   {
     title: "Gurmat Classes",
-    image: "/public/images/gurmat class.png",
+    image: "/images/gurmat_class.png",
     desc: "Punjabi, Gurbani and Sikh history classes.",
   },
   {
     title: "Community Welfare",
-    image: "/public/images/CAMP.jpg",
+    image: "/images/CAMP.jpg",
     desc: "Medical camps, blood donation and welfare activities.",
   },
   {
     title: "Amrit Sanchar",
-    image: "/public/images/amrit sanchar.jpg",
+    image: "/images/amrit_sanchar.jpg",
     desc: "Sacred initiation ceremony conducted periodically.",
   },
   
   {
     title: "Room Booking",
-    image: "/public/images/room booking.png",
+    image: "/images/room_booking.png",
     desc: "Reserve classrooms and halls for events, meetings, and workshops.",
   },
     {
     title: "Community Hall Booking",
-    image: "/public/images/communtiy hall.jpg",
+    image: "/images/communtiy_hall.jpg",
     desc: "Spacious hall available for weddings, religious ceremonies, and community events with seating, sound system, and full arrangements.",
   },
 ];

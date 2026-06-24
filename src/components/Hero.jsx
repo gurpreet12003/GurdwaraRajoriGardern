@@ -6,7 +6,7 @@ export default function Hero() {
       {/* Background Image */}
    <div className="absolute inset-0">
   <img
-    src="/public/images/img1.jpeg"
+    src="/images/img1.jpeg"
     alt="Gurudwara Sri Guru Singh Sabha"
     className="w-full h-full object-cover"
   />

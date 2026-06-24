@@ -10,21 +10,21 @@ const bookingCards = [
   },
   {
     title: "Dispensary Services",
-    image: "/public/images/hero4.webp",
+    image: "/images/hero4.webp",
     description:
       "Healthcare support, medicines, consultations and community wellness services.",
     button: "View Facilities",
   },
   {
     title: "Donate & Support",
-    image: "/public/images/CAMP.jpg",
+    image: "/images/CAMP.jpg",
     description:
       "Support Langar Seva, education, medical camps and humanitarian initiatives.",
     button: "Donate Now",
   },
   {
     title: "GNIAT",
-    image: "/public/images/gniat.jpeg",
+    image: "/images/gniat.jpeg",
     description:
       "Professional education and skill development programs for students.",
     button: "Learn More",

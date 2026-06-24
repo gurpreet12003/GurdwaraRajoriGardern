@@ -161,7 +161,7 @@ const galleryCategories = [
       "Gurudwara Sri Guru Singh Sabha serves as a spiritual and community center where devotees gather for prayer, kirtan, seva, and religious celebrations throughout the year.",
     images: [
       {
-        src: "/public/images/gurudwara-night.jpg",
+        src: "/images/gurudwara-night.jpg",
         alt: "Gurudwara Night View",
         caption: "Beautifully illuminated Gurudwara Sahib at night",
       },
@@ -179,7 +179,7 @@ const galleryCategories = [
       "Daily Shabad Kirtan is performed by experienced Ragis and Kirtani Jathas, allowing the Sangat to connect spiritually through Gurbani and divine hymns.",
     images: [
       {
-        src: "/public/images/prayer-hall.jpg",
+        src: "/images/prayer-hall.jpg",
         alt: "Kirtan Seva",
         caption: "Divine Shabad Kirtan in Darbar Sahib",
       },
@@ -192,7 +192,7 @@ const galleryCategories = [
       "Langar Seva provides free meals to all visitors without discrimination. Volunteers participate in cooking, serving, and maintaining the community kitchen.",
     images: [
       {
-        src: "/public/images/langar-hall.jpg",
+        src: "/images/langar-hall.jpg",
         alt: "Langar Seva",
         caption: "Community Kitchen Serving Langar to Sangat",
       },
@@ -205,7 +205,7 @@ const galleryCategories = [
       "Akhand Path Sahib is the continuous and uninterrupted recitation of Sri Guru Granth Sahib Ji, completed over approximately 48 hours with devotion and reverence.",
     images: [
       {
-        src: "/public/images/ankhand path.jpg",
+        src: "/images/ankhand_path.jpg",
         alt: "Akhand Path",
         caption: "Continuous 48-hour Sri Guru Granth Sahib Ji Path",
       },
@@ -223,7 +223,7 @@ const galleryCategories = [
       "Naam Karan is the sacred Sikh naming ceremony where a newborn receives a spiritual name through Hukamnama from Sri Guru Granth Sahib Ji.",
     images: [
       {
-        src: "/public/images/nam karan.jpg",
+        src: "/images/nam_karan.jpg",
         alt: "Naam Karan Ceremony",
         caption: "Sacred Naming Ceremony for Newborns",
       },
@@ -236,7 +236,7 @@ const galleryCategories = [
       "Anand Karaj is the Sikh marriage ceremony performed in the presence of Sri Guru Granth Sahib Ji, blessing the couple's spiritual journey together.",
     images: [
       {
-        src: "/public/images/annad karaj.jpg",
+        src: "/images/annad_karaj.jpg",
         alt: "Anand Karaj",
         caption: "Traditional Sikh Wedding Ceremony",
       },
@@ -249,7 +249,7 @@ const galleryCategories = [
       "Gurmat Classes provide education in Punjabi, Gurbani, Sikh history, and moral values to children and adults, helping preserve Sikh heritage.",
     images: [
       {
-        src: "/public/images/gurmat class.png",
+        src: "/images/gurmat_class.png",
         alt: "Gurmat Classes",
         caption: "Learning Punjabi, Gurbani & Sikh History",
       },
@@ -262,7 +262,7 @@ const galleryCategories = [
       "Community Welfare initiatives include medical camps, blood donation drives, relief efforts, and various social service activities benefiting society.",
     images: [
       {
-        src: "/public/images/CAMP.jpg",
+        src: "/images/CAMP.jpg",
         alt: "Community Welfare",
         caption: "Medical Camps & Social Welfare Activities",
       },
@@ -275,7 +275,7 @@ const galleryCategories = [
       "Amrit Sanchar is the sacred Khalsa initiation ceremony where Sikhs commit themselves to the teachings and discipline of Guru Gobind Singh Ji.",
     images: [
       {
-        src: "/public/images/amrit sanchar.jpg",
+        src: "/images/amrit_sanchar.jpg",
         alt: "Amrit Sanchar",
         caption: "Sacred Khalsa Initiation Ceremony",
       },
@@ -288,7 +288,7 @@ const galleryCategories = [
       "The Gurudwara Dispensary provides healthcare consultations, medicines, and wellness services to the Sangat and local community free of cost.",
     images: [
       {
-        src: "/public/images/dispansry.jpg",
+        src: "/images/dispansry.jpg",
         alt: "Dispensary",
         caption: "Free Medical Care & Health Services",
       },
@@ -301,7 +301,7 @@ const galleryCategories = [
       "Educational Programs include seminars, workshops, career guidance sessions, and spiritual learning opportunities for students and community members.",
     images: [
       {
-        src: "/public/images/gniat.jpeg",
+        src: "/images/gniat.jpeg",
         alt: "Educational Programs",
         caption: "Seminars, Workshops & Spiritual Learning",
       },
@@ -314,7 +314,7 @@ const galleryCategories = [
       "Rooms are available for accommodation, meetings, educational activities, and religious gatherings with comfortable facilities for visitors.",
     images: [
       {
-        src: "/public/images/room booking.png",
+        src: "/images/room_booking.png",
         alt: "Room Booking",
         caption: "Halls & Rooms for Events and Meetings",
       },
@@ -327,7 +327,7 @@ const galleryCategories = [
       "The Community Hall is available for weddings, religious functions, seminars, conferences, cultural programs, and community gatherings with complete event facilities.",
     images: [
       {
-        src: "/public/images/communtiy hall.jpg",
+        src: "/images/communtiy_hall.jpg",
         alt: "Community Hall",
         caption: "Large Hall for Weddings, Samagam & Events",
       },
