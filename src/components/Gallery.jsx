@@ -179,7 +179,7 @@ const galleryCategories = [
       "Daily Shabad Kirtan is performed by experienced Ragis and Kirtani Jathas, allowing the Sangat to connect spiritually through Gurbani and divine hymns.",
     images: [
       {
-        src: "/images/prayer-hall.jpg",
+        src: "/public/images/prayer-hall.jpg",
         alt: "Kirtan Seva",
         caption: "Divine Shabad Kirtan in Darbar Sahib",
       },
@@ -192,7 +192,7 @@ const galleryCategories = [
       "Langar Seva provides free meals to all visitors without discrimination. Volunteers participate in cooking, serving, and maintaining the community kitchen.",
     images: [
       {
-        src: "/images/langar-hall.jpg",
+        src: "/public/images/langar-hall.jpg",
         alt: "Langar Seva",
         caption: "Community Kitchen Serving Langar to Sangat",
       },
@@ -301,7 +301,7 @@ const galleryCategories = [
       "Educational Programs include seminars, workshops, career guidance sessions, and spiritual learning opportunities for students and community members.",
     images: [
       {
-        src: "/src/assets/gniat.jpeg",
+        src: "/public/images/gniat.jpeg",
         alt: "Educational Programs",
         caption: "Seminars, Workshops & Spiritual Learning",
       },

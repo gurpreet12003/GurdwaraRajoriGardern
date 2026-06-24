@@ -10,7 +10,7 @@ const bookingCards = [
   },
   {
     title: "Dispensary Services",
-    image: "/src/assets/hero4.webp",
+    image: "/public/images/hero4.webp",
     description:
       "Healthcare support, medicines, consultations and community wellness services.",
     button: "View Facilities",
@@ -24,7 +24,7 @@ const bookingCards = [
   },
   {
     title: "GNIAT",
-    image: "/src/assets/gniat.jpeg",
+    image: "/public/images/gniat.jpeg",
     description:
       "Professional education and skill development programs for students.",
     button: "Learn More",

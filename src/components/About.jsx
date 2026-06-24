@@ -45,7 +45,7 @@ export default function About() {
           <div className={`transition-all duration-700 delay-200 ${isInView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className="relative">
               <img
-                src="/src/assets/hero1.png"
+                src="/public/images/hero1.png"
                 alt="Prayer Hall - Darbar Sahib"
                 className="w-full rounded-2xl shadow-2xl object-cover aspect-[5/4]"
               />

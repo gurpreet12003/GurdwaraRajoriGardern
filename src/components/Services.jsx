@@ -3,7 +3,7 @@ import useInView from '../hooks/useInView';
 const services = [
   {
     title: "Kirtan Seva",
-    image: "/images/prayer-hall.jpg",
+    image: "/public/images/prayer-hall.jpg",
     desc: "Daily Shabad Kirtan by trained Ragis and Kirtaniye Jatha.",
   },
   {
@@ -13,12 +13,12 @@ const services = [
   },
   {
     title: "Educational",
-    image: "/src/assets/gniat.jpeg",
+    image: "/public/images/gniat.jpeg",
     desc: "Gurmat classes, seminars, and workshops for spiritual and academic learning.",
   },
   {
     title: "Langar Seva",
-    image: "/images/langar-hall.jpg",
+    image: "/public/images/langar-hall.jpg",
     desc: "Free community kitchen serving fresh meals to all visitors.",
   },
   {
