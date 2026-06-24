@@ -32,7 +32,7 @@ export default function Donate() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="donate" className="py-20 md:py-28 relative overflow-hidden" ref={ref}>
+    <section id="donate" className="py-20 md:py-15 relative overflow-hidden" ref={ref}>
       {/* Background */}
       <div className="absolute inset-0 bg-gradient-to-br from-saffron-600 via-saffron-500 to bg-saffron-400" />
       <div className="absolute inset-0 opacity-10">

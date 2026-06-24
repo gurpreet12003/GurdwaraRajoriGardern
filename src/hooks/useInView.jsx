@@ -1,6 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from "react";
 
-export default function useInView(threshold = 0.15) {
+export default function useInView() {
   const ref = useRef(null);
   const [isInView, setIsInView] = useState(false);
 
@@ -9,22 +9,21 @@ export default function useInView(threshold = 0.15) {
       ([entry]) => {
         if (entry.isIntersecting) {
           setIsInView(true);
+          observer.disconnect(); // trigger only once
         }
       },
-      { threshold }
+      {
+        threshold: 0,
+        rootMargin: "100px",
+      }
     );
 
-    const current = ref.current;
-    if (current) {
-      observer.observe(current);
+    if (ref.current) {
+      observer.observe(ref.current);
     }
 
-    return () => {
-      if (current) {
-        observer.unobserve(current);
-      }
-    };
-  }, [threshold]);
+    return () => observer.disconnect();
+  }, []);
 
   return { ref, isInView };
 }

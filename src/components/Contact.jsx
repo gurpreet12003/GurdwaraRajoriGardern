@@ -124,7 +124,7 @@ export default function Contact() {
     <section
       id="contact"
       // ✅ FIX 1: py-17 is not a valid Tailwind class → use py-16 md:py-20
-      className="py-16 md:py-20 bg-gradient-to-b from-white to-gray-50"
+      className="py-16 md:py-15 bg-gradient-to-b from-white to-gray-50"
       ref={ref}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

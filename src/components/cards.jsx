@@ -33,7 +33,7 @@ const bookingCards = [
 const Cards = () => {
       const { ref, isInView } = useInView();
   return (
-    <section id="cards" className="py-20 px-10 md:py-20" ref={ref}>
+    <section id="cards" className="py-20 px-10 md:py-15" ref={ref}>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
   {bookingCards.map((card, index) => (
     <div

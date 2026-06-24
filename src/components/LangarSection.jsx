@@ -17,7 +17,7 @@ export default function LangarSection() {
   const { ref, isInView } = useInView();
 
   return (
-   <section className="py-20 md:py-28 bg-white" ref={ref}>
+   <section className="py-20 md:py-15 bg-white" ref={ref}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     {/* Section Heading */}

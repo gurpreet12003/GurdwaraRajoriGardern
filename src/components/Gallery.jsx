@@ -497,7 +497,7 @@ export default function Gallery() {
   const images = activeCategory?.images || [];
 
   return (
-    <section ref={ref} className="py-10 bg-white">
+    <section ref={ref} className="py-15 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         {/* Header */}
         <h2 className="text-3xl sm:text-4xl font-bold text-center text-[#00003c]">
