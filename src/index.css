@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+@theme {
+  --color-saffron-50: #fff8ed;
+  --color-saffron-100: #fff0d4;
+  --color-saffron-200: #ffdda8;
+  --color-saffron-300: #ffc471;
+  --color-saffron-400: #ff9f38;
+  --color-saffron-500: #ff8511;
+  --color-saffron-600: #f06b07;
+  --color-saffron-700: #c75008;
+  --color-saffron-800: #9e3f0f;
+  --color-saffron-900: #7f3610;
+  --color-saffron-950: #451906;
+
+  --color-royal-50: #f0f4fe;
+  --color-royal-100: #dde6fc;
+  --color-royal-200: #c3d4fa;
+  --color-royal-300: #9ab9f6;
+  --color-royal-400: #6a94f0;
+  --color-royal-500: #476cea;
+  --color-royal-600: #324fdf;
+  --color-royal-700: #293dcc;
+  --color-royal-800: #2733a6;
+  --color-royal-900: #253083;
+  --color-royal-950: #1b2050;
+
+  --color-gold-50: #fdfde8;
+  --color-gold-100: #fbfbbd;
+  --color-gold-200: #f8f483;
+  --color-gold-300: #f2e63a;
+  --color-gold-400: #ebd512;
+  --color-gold-500: #d4bc06;
+  --color-gold-600: #b79402;
+  --color-gold-700: #926b06;
+  --color-gold-800: #79550d;
+  --color-gold-900: #674511;
+  --color-gold-950: #3c2405;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 133, 17, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 133, 17, 0.6);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+.animate-slide-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.delay-100 { animation-delay: 0.1s; }
+.delay-200 { animation-delay: 0.2s; }
+.delay-300 { animation-delay: 0.3s; }
+.delay-400 { animation-delay: 0.4s; }
+.delay-500 { animation-delay: 0.5s; }
+.delay-600 { animation-delay: 0.6s; }
