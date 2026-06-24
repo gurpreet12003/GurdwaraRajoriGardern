@@ -28,7 +28,7 @@ const services = [
   },
   {
     title: "Naam Karan",
-    image: "/public/images/nam_karan.jpg",
+    image: "/images/nam_karan.jpg",
     desc: "Sacred naming ceremony for newborns.",
   },
   {

@@ -166,7 +166,7 @@ const galleryCategories = [
         caption: "Beautifully illuminated Gurudwara Sahib at night",
       },
       {
-        src: "/public/images/hero-gurudwara.jpg",
+        src: "/images/hero-gurudwara.jpg",
         alt: "Gurudwara Exterior",
         caption: "Main entrance of Gurudwara Sri Guru Singh Sabha",
       },
@@ -210,7 +210,7 @@ const galleryCategories = [
         caption: "Continuous 48-hour Sri Guru Granth Sahib Ji Path",
       },
       {
-        src: "/public/images/prayer-hall.jpg",
+        src: "/images/prayer-hall.jpg",
         alt: "Akhand Path",
         caption: "Sangat participating during Akhand Path Sahib",
       },
