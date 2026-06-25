@@ -28,11 +28,11 @@ export default function About() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="about" className="py-20 md:py-15 bg-white" ref={ref}>
+    <section id="about" className="py-15 md:py-10 bg-white" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
-          <span className="text-saffron-500 font-semibold text-sm uppercase tracking-widest">About Us</span>
+          <span className="text-saffron-500 font-semibold text-sm uppercase tracking-widest">About Gurudwara Sri Guru Singh Sabha Rajouri Garden</span>
           <h2 className="mt-3 text-3xl md:text-5xl font-bold text-[#00003c]">
             A Place of <span className="text-saffron-600">Divine Grace</span>
           </h2>
@@ -42,14 +42,14 @@ export default function About() {
         {/* Main Content */}
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-20">
           {/* Image */}
-          <div className={`transition-all duration-700 delay-200 ${isInView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
+          <div className={`transition-all duration-700  delay-200 ${isInView ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
             <div className="relative">
               <img
                 src="/images/hero1.png"
                 alt="Prayer Hall - Darbar Sahib"
-                className="w-full rounded-2xl shadow-2xl object-cover aspect-[5/4]"
+                className="w-full rounded-2xl border-2 border-[#FF8000] shadow-2xl object-cover aspect-[5/4]"
               />
-              <div className="absolute -bottom-6 -right-6 bg-saffron-500 text-white p-6 rounded-2xl shadow-xl hidden md:block">
+              <div className="absolute -bottom-6 -right-6 bg-[#272979] text-white p-6 rounded-2xl shadow-xl hidden md:block">
                 <p className="text-3xl font-bold">50+</p>
                 <p className="text-sm font-medium">Years of Service</p>
               </div>
@@ -80,11 +80,15 @@ export default function About() {
 
             <div className="flex flex-wrap gap-4">
               <a href="#services" className="px-6 py-3 bg-saffron-500 text-white rounded-full font-semibold hover:bg-saffron-600 transition-all duration-300 shadow-md">
-                Our Services
+                Sangat Services
               </a>
-              <a href="#contact" className="px-6 py-3 border-2 border-saffron-500 text-saffron-600 rounded-full font-semibold hover:bg-saffron-50 transition-all duration-300">
-                Visit Us
+              <a href="#services" className="px-6 py-3 bg-saffron-500 text-white rounded-full font-semibold hover:bg-saffron-600 transition-all duration-300 shadow-md">
+                Bookings
               </a>
+              <a href="#services" className="px-6 py-3 bg-saffron-500 text-white rounded-full font-semibold hover:bg-saffron-600 transition-all duration-300 shadow-md">
+                  Donate Now
+              </a>
+              
             </div>
           </div>
         </div>

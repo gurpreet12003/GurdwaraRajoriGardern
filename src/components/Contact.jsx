@@ -124,7 +124,7 @@ export default function Contact() {
     <section
       id="contact"
       // ✅ FIX 1: py-17 is not a valid Tailwind class → use py-16 md:py-20
-      className="py-16 md:py-15 bg-gradient-to-b from-white to-gray-50"
+      className="py-15 md:py-10 bg-gradient-to-b from-white to-gray-50"
       ref={ref}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -160,7 +160,7 @@ export default function Contact() {
                   className="bg-white rounded-xl p-5 shadow-md hover:shadow-lg border border-gray-100 transition-shadow group"
                 >
                   <div className="flex items-center gap-3 mb-3">
-                    <div className="w-10 h-10 bg-saffron-100 text-saffron-600 rounded-lg flex items-center justify-center group-hover:bg-saffron-500 group-hover:text-white transition-colors flex-shrink-0">
+                    <div className="w-10 h-10 bg-saffron-500 text-white rounded-lg flex items-center justify-center group-hover:bg-saffron-100 group-hover:text-saffron-600 transition-colors flex-shrink-0">
                       {info.icon}
                     </div>
                     <h3 className="font-bold text-gray-900">{info.title}</h3>

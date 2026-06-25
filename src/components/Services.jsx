@@ -5,28 +5,22 @@ import useInView from "../hooks/useInView";
 const services = [
   {
     title: "Kirtan Seva",
-    image: "/images/prayer-hall.jpg",
+    image: "/images/kirtan.jpg",
     shortDesc: "Daily Shabad Kirtan by trained Ragis and Kirtaniye Jatha.",
     fullDesc:
       "Daily Shabad Kirtan by trained Ragis and Kirtaniye Jatha, creating a spiritual atmosphere and connecting the Sangat with Gurbani through devotional singing.",
   },
   {
     title: "Dispensary",
-    image: "/images/dispansry.jpg",
+    image: "/images/dispansry2.jpg",
     shortDesc: "Free healthcare consultations and medicines.",
     fullDesc:
       "Free healthcare consultations, medicines, and wellness services for the Sangat, helping the community maintain good health and well-being.",
   },
-  {
-    title: "Educational",
-    image: "/images/gniat.jpeg",
-    shortDesc: "Gurmat classes, seminars, and workshops.",
-    fullDesc:
-      "Gurmat classes, seminars, workshops, and educational programs that support both spiritual growth and academic learning for all age groups.",
-  },
+  
   {
     title: "Langar Seva",
-    image: "/images/langar-hall.jpg",
+    image: "/images/langar2.jpg",
     shortDesc: "Free community kitchen serving fresh meals.",
     fullDesc:
       "Free community kitchen serving fresh meals to all visitors regardless of caste, creed, or background, reflecting the Sikh values of equality and service.",
@@ -37,6 +31,13 @@ const services = [
     shortDesc: "Continuous 48-hour reading of Sri Guru Granth Sahib Ji.",
     fullDesc:
       "Continuous 48-hour reading of Sri Guru Granth Sahib Ji conducted with devotion and respect for spiritual upliftment and blessings.",
+  },
+  {
+    title: "Educational",
+    image: "/images/education.png",
+    shortDesc: "Gurmat classes, seminars, and workshops.",
+    fullDesc:
+      "Gurmat classes, seminars, workshops, and educational programs that support both spiritual growth and academic learning for all age groups.",
   },
   {
     title: "Naam Karan",
@@ -54,7 +55,7 @@ const services = [
   },
   {
     title: "Gurmat Classes",
-    image: "/images/gurmat_class.png",
+    image: "/images/gurmat-class.jpg",
     shortDesc: "Punjabi, Gurbani and Sikh history classes.",
     fullDesc:
       "Classes focused on Punjabi language, Gurbani recitation, Sikh history, and values to help younger generations stay connected to their heritage.",
@@ -103,7 +104,7 @@ export default function Services() {
     <section
       id="services"
       ref={ref}
-      className="py-20 md:py-15 bg-white"
+      className="py-15 md:py-10 bg-white"
     >
       <div className="max-w-7xl mx-auto px-4">
         {/* Header */}

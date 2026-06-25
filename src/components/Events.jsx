@@ -36,7 +36,7 @@ export default function Events() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="events" className="py-20 md:py-15 bg-gradient-to-b from-gray-50 to-white" ref={ref}>
+    <section id="events" className="py-15 md:py-10 bg-gradient-to-b from-gray-50 to-white" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>

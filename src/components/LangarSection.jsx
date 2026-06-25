@@ -17,7 +17,7 @@ export default function LangarSection() {
   const { ref, isInView } = useInView();
 
   return (
-   <section className="py-20 md:py-15 bg-white" ref={ref}>
+   <section className="py-15 md:py-10 bg-white" ref={ref}>
   <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
     {/* Section Heading */}
@@ -113,19 +113,19 @@ export default function LangarSection() {
           <img
             src="/images/langar-hall.jpg"
             alt="Guru Ka Langar"
-            className="w-full h-[450px] rounded-2xl shadow-2xl object-cover"
+            className="w-full h-[450px] border-2 border-[#FF8000] rounded-2xl shadow-2xl object-cover"
           />
 
-          <div className="absolute -bottom-5 -left-5 bg-white p-5 rounded-2xl shadow-xl hidden md:flex items-center gap-3">
+          <div className="absolute -bottom-5 -left-5 bg-[#272979] p-5 rounded-2xl shadow-xl hidden md:flex items-center gap-3">
             <div className="w-12 h-12 bg-[#FF8000] rounded-full flex items-center justify-center">
               <UtensilsCrossed className="w-6 h-6 text-white" />
             </div>
 
             <div>
-              <p className="font-bold text-gray-900">
+              <p className="font-bold text-white">
                 Guru Ka Langar
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-white">
                 Sarbat Da Bhala
               </p>
             </div>

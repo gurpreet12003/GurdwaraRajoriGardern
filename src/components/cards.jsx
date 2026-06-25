@@ -1,20 +1,28 @@
 import React from 'react'
 import useInView from '../hooks/useInView';
 const bookingCards = [
+    {
+    title: "Medical Services",
+    image: "/images/dispansry2.jpg",
+    description:
+      "Healthcare support, medicines, consultations and community wellness services.",
+    button: "Learn More",
+  },
   {
-    title: "Kirtan & Path Booking",
-    image: "/images/prayer-hall.jpg",
+    title: "Education",
+    image: "/images/education.png",
+    description:
+      "Professional education and skill development programs for students.",
+    button: "Learn More",
+  },
+  {
+    title: "Book Now",
+    image: "/public/images/booking.png",
     description:
       "Book Akhand Path Sahib, Sehaj Path Sahib, Kirtan Seva and Anand Karaj ceremonies.",
     button: "Book Now",
   },
-  {
-    title: "Dispensary Services",
-    image: "/images/hero4.webp",
-    description:
-      "Healthcare support, medicines, consultations and community wellness services.",
-    button: "View Facilities",
-  },
+
   {
     title: "Donate & Support",
     image: "/images/CAMP.jpg",
@@ -22,18 +30,12 @@ const bookingCards = [
       "Support Langar Seva, education, medical camps and humanitarian initiatives.",
     button: "Donate Now",
   },
-  {
-    title: "GNIAT",
-    image: "/images/gniat.jpeg",
-    description:
-      "Professional education and skill development programs for students.",
-    button: "Learn More",
-  },
+  
 ];
 const Cards = () => {
       const { ref, isInView } = useInView();
   return (
-    <section id="cards" className="py-20 px-10 md:py-15" ref={ref}>
+    <section id="cards" className="py-15 px-5 md:px-10 md:py-15" ref={ref}>
   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
   {bookingCards.map((card, index) => (
     <div
@@ -63,7 +65,7 @@ const Cards = () => {
           {card.description}
         </p>
 
-        <button className="w-full bg-[#FF8000] text-white py-3 rounded-xl font-semibold hover:bg-[#e67300] transition-all duration-300">
+        <button className="w-full  bg-[#FF8000] text-white py-3 rounded-xl font-semibold hover:bg-[#e67300] transition-all duration-300">
           {card.button}
         </button>
       </div>

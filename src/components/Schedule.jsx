@@ -5,7 +5,7 @@ const scheduleItems = [
   {
     period: 'Early Morning',
     icon: <Sun className="w-6 h-6" />,
-    color: 'from-amber-400 to-orange-500',
+    color: '[#FF8000]',
     events: [
       { time: '3:00 AM', name: 'Amrit Vela — Early Morning Meditation' },
       { time: '4:00 AM', name: 'Asa Di Var — Morning Kirtan' },
@@ -15,7 +15,7 @@ const scheduleItems = [
   {
     period: 'Morning',
     icon: <Clock className="w-6 h-6" />,
-    color: 'from-orange-400 to-saffron-500',
+    color: '[#FF8000]',
     events: [
       { time: '6:00 AM', name: 'Sukhmani Sahib Path' },
       { time: '8:00 AM', name: 'Langar Seva — Morning' },
@@ -25,7 +25,7 @@ const scheduleItems = [
   {
     period: 'Afternoon',
     icon: <Sunset className="w-6 h-6" />,
-    color: 'from-saffron-500 to-red-500',
+    color: '[#272979]',
     events: [
       { time: '12:00 PM', name: 'Langar Seva — Afternoon' },
       { time: '1:00 PM', name: 'Kirtan — Afternoon Session' },
@@ -35,7 +35,7 @@ const scheduleItems = [
   {
     period: 'Evening',
     icon: <Moon className="w-6 h-6" />,
-    color: 'from-royal-600 to-royal-800',
+    color: '[#272979]',
     events: [
       { time: '6:00 PM', name: 'Rehras Sahib — Evening Prayers' },
       { time: '7:00 PM', name: 'Evening Kirtan Darbar' },
@@ -48,7 +48,7 @@ export default function Schedule() {
   const { ref, isInView } = useInView();
 
   return (
-    <section id="schedule" className="py-20 md:py-15 bg-gradient-to-b from-saffron-50 to-white" ref={ref}>
+    <section id="schedule" className="py-15 md:py-10 bg-gradient-to-b from-saffron-50 to-white" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className={`text-center max-w-3xl mx-auto mb-16 transition-all duration-700 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
@@ -71,7 +71,7 @@ export default function Schedule() {
               style={{ transitionDelay: `${200 + index * 150}ms` }}
             >
               {/* Period Header */}
-              <div className={`bg-gradient-to-r ${item.color} p-5 flex items-center gap-3`}>
+              <div className={`bg-${item.color} p-5 flex items-center gap-3`}>
                 <div className="w-10 h-10 bg-white/20 rounded-lg flex items-center justify-center text-white">
                   {item.icon}
                 </div>
