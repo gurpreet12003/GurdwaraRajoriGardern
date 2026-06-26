@@ -4,14 +4,14 @@ import useInView from "../../hooks/useInView";
 
 const leaders = [
       {
-        name: "Harmanjit Singh",
+        name: "Sardar Harmanjit Singh",
         role:"President",
         img: "https://gniat.com/wp-content/uploads/2025/11/Harmanjeet-Singh-President.png",
         quote:
             "With the blessings of Waheguru Ji, we are committed to maintaining our Gurudwara as a center of faith, unity and selfless service for all. May our collective efforts bring peace and prosperity.",
     },
     {
-        name: "Sardar bakshiharjit Singh",
+        name: "Sardar Bakshiharjit Singh",
         role: "Chairman",
         img: "/images/dispansary_chairman.png",
         quote:

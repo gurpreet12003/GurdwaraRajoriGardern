@@ -30,8 +30,7 @@ const Dispasary = () => {
         // primaryBtnText="Our Services"
         bgPosition="center 0%"
         showOverlay={true}
-        // primaryBtnLink="#services"
-        // secondaryBtnText="Contact Us"
+        // primaryBtnLink="#services"        // secondaryBtnText="Contact Us"
         // secondaryBtnLink="#contact"
       />
       <About />
