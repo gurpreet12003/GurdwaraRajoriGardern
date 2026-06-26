@@ -1,45 +1,30 @@
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./pages/home"
 import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import LangarSection from './components/LangarSection';
-import Schedule from './components/Schedule';
-import Services from './components/Services';
-import QuoteBanner from './components/QuoteBanner';
-import Events from './components/Events';
-import Gallery from './components/Gallery';
-import Donate from './components/Donate';
-import Contact from './components/Contact';
+import Dispasary from "./pages/dispansary";
 import Footer from './components/Footer';
-import Cards from './components/cards';
-import LeadershipMessages from './components/leadership';
+import ScrollToTopButton from "./components/scrollToTop";
 export default function App() {
   return (
-    <div className="min-h-screen bg-white">
+    <>
       <Navbar />
-      <Hero />
-      <Cards/>
-      <About />
-      <Services />
-      <QuoteBanner />
-      <LangarSection />
-      <Schedule />
-      <Events />
-      <Gallery />
-      <Donate />
-      <LeadershipMessages/>
-      <Contact />
-      <Footer />
+      <ScrollToTopButton />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/dispansary" element={<Dispasary />} />
 
-      {/* Scroll to top button */}
+      </Routes>
       <ScrollToTop />
-    </div>
+      <Footer />
+    </>
   );
 }
 
 function ScrollToTop() {
   return (
     <a
-      href="#home"
+      href="#hero"
       className="fixed bottom-6 right-6 z-50 w-12 h-12 bg-saffron-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-saffron-600 hover:scale-110 transition-all duration-300"
       aria-label="Scroll to top"
     >
