@@ -16,22 +16,23 @@ const Dispasary = () => {
   return (<>
     <div>
       <Hero
-        bgImage="/images/pharmacy.jpg"
-        title={
-          <>
-            Guru Nanak Charitable <br />
-            <span className="text-saffron-300">
-              Dispensary & Clinical Lab
-            </span>
-          </>
-        }
-        subtitle="Healthcare For All"
-        description="Providing consultations, medicines, diagnostics and healthcare services with compassion and Seva."
-        primaryBtnText="Our Services"
-        bgPosition="center 40%"
-        primaryBtnLink="#services"
-        secondaryBtnText="Contact Us"
-        secondaryBtnLink="#contact"
+        bgImage="/images/dispensaryBanner.png"
+        // title={
+        //   <>
+        //     Guru Nanak Charitable <br />
+        //     <span className="text-saffron-300">
+        //       Dispensary & Clinical Lab
+        //     </span>
+        //   </>
+        // }
+        // subtitle="Healthcare For All"
+        // description="Providing consultations, medicines, diagnostics and healthcare services with compassion and Seva."
+        // primaryBtnText="Our Services"
+        bgPosition="center 0%"
+        showOverlay={true}
+        // primaryBtnLink="#services"
+        // secondaryBtnText="Contact Us"
+        // secondaryBtnLink="#contact"
       />
       <About />
       <LeaderCard />

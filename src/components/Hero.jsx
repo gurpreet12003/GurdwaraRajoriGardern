@@ -2,7 +2,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Hero({
   bgImage,
-   bgPosition = "center center",
+  bgPosition = "center center",
   title,
   subtitle,
   description,
@@ -11,7 +11,8 @@ export default function Hero({
   secondaryBtnText,
   secondaryBtnLink,
   showMoolMantar = false,
-}) {
+  showOverlay = true, 
+})  {
   const hasContent =
   title ||
   subtitle ||
@@ -30,7 +31,9 @@ export default function Hero({
           className="w-full h-full object-cover"
             style={{ objectPosition: bgPosition }}
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+   {showOverlay && (
+  <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/70" />
+)}
 </div>
 
 {hasContent && (
